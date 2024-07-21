@@ -11,16 +11,12 @@
 ## Install
 
 ```bash
-yarn add puppeteer-extra-plugin-recaptcha-anti-captcha
-# - or -
 npm install puppeteer-extra-plugin-recaptcha-anti-captcha
 ```
 
 If this is your first [puppeteer-extra](https://github.com/berstend/puppeteer-extra) plugin here's everything you need:
 
 ```bash
-yarn add puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha-anti-captcha
-# - or -
 npm install puppeteer puppeteer-extra puppeteer-extra-plugin-recaptcha-anti-captcha
 ```
 
