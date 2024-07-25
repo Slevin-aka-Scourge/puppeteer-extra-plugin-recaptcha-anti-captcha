@@ -2,6 +2,8 @@
 
 > This is a plugin for [puppeteer-extra-plugin-recaptcha](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-recaptcha) that implements [Anti-Captcha](https://getcaptchasolution.com/w3dxzftg7u) provider to the solver.
 
+> You can still use the [2CAPTCHA](https://2captcha.com/?from=18177101) provider
+
 ![](https://i.imgur.com/SWrIQw0.gif)
 
 ## Gratitude
@@ -36,8 +38,8 @@ const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha-anti-captcha')
 puppeteer.use(
   RecaptchaPlugin({
     provider: {
-      id: 'antigate',
-      token: 'XXXXXXX' // REPLACE THIS WITH YOUR OWN 2CAPTCHA API KEY ⚡
+      id: 'antigate',   // or '2captcha'
+      token: 'XXXXXXX' // REPLACE THIS WITH YOUR OWN 2CAPTCHA API KEY OR ANTI-CAPTCHA API KEY ⚡
     },
     visualFeedback: true // colorize reCAPTCHAs (violet = detected, green = solved)
   })
