@@ -680,7 +680,7 @@ var querystring = require('querystring');
 var apiKey;
 var apiInUrl = 'https://2captcha.com/in.php';
 var apiResUrl = 'https://2captcha.com/res.php';
-var SOFT_ID = '2589';
+var SOFT_ID = '4689';
 var defaultOptions = {
     pollingInterval: 2000,
     retries: 3
